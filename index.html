@@ -10,6 +10,8 @@
       content="Europe's leading online retailer of quality fashion products at affordable prices."
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Preload hero image -->
     <link rel="preload" href="assets/videos/hero-still.jpg" as="image" />
 
@@ -73,7 +75,7 @@
         </p>
       </section>
 
-      <section class="theme-two" id="hats">
+      <section class="theme-two" id="hats" data-aos="fade-up" data-aos-duration="1000">
         <h2>Hats</h2>
 
         <p>
@@ -98,7 +100,7 @@
         </div>
       </section>
 
-      <section class="theme-three" id="scarves">
+      <section class="theme-three" id="scarves" data-aos="fade-up" data-aos-duration="1000">
         <h2>Scarves</h2>
         <p>
           Discover our beautiful range of scarves for all occasions in a wide variety of designs.
@@ -122,7 +124,7 @@
         </div>
       </section>
 
-      <section class="theme-two" id="t-shirts">
+      <section class="theme-two" id="t-shirts" data-aos="fade-up" data-aos-duration="1000">
         <h2>T-shirts</h2>
         <p>
           Be unique. Check out our vast collection of t-shirts ethically sourced from independent
@@ -145,7 +147,7 @@
           >
         </div>
       </section>
-      <section class="theme-three" id="footwear">
+      <section class="theme-three" id="footwear" data-aos="fade-up" data-aos-duration="1000">
         <h2>Footwear</h2>
         <p>
           Shop our fabulous selection of women’s footwear right here. Our range includes all the
@@ -220,5 +222,11 @@
 
     <!-- footer -->
     <footer></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
